@@ -1,10 +1,10 @@
 package pabgGame;
-
+//Inheritance
 public class Archer extends Wizard{
 
-	Archer(String name){
-		super(name);
-		this.type = "Archer";
-		this.health = 3;
+	Archer() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
 	}
+
 }
